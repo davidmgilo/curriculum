@@ -17,7 +17,6 @@ class CreateStudiesTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->integer('period_id');
-            $table->('');
             $table->timestamps();
         });
     }
