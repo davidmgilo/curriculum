@@ -15,7 +15,7 @@ class CurriculumServiceProvider extends ServiceProvider
     {
         //Inicialitzant el paquet cada cop que es carrega una pàgina
 
-        dd("Heeeeeeeeeeeeeeeeeeeeeyyyyyyyyyyyy");
+//        dd("Heeeeeeeeeeeeeeeeeeeeeyyyyyyyyyyyy");
         $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
     }
 }
