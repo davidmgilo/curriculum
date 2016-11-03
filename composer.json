@@ -10,5 +10,8 @@
             "name": "David Martinez",
             "email": "davidmgilo@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {"Scool\\Curriculum\\": "src"}
+    }
 }
