@@ -1,6 +1,6 @@
 <?php
 
-namespace Scool\Curriculum\providers;
+namespace Scool\Curriculum\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
