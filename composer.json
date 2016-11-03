@@ -12,6 +12,10 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Scool\\Curriculum\\": "src"}
+        "psr-4": {"Scool\\Curriculum\\": "src"
+//        ,
+//            "Scool\\Curriculum\\Database\\": "database"
+            //però no ho farem aixi
+        }
     }
 }
