@@ -16,6 +16,23 @@ class CurriculumServiceProvider extends ServiceProvider
         //Inicialitzant el paquet cada cop que es carrega una pàgina
 
 //        dd("Heeeeeeeeeeeeeeeeeeeeeyyyyyyyyyyyy");
+        $this->loadMigrations();
         $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
+        $this->publishFactories();
+
+    }
+
+    private function loadMigrations()
+    {
+    }
+
+    private function publishFactories()
+    {
+        $this->publishes(
+            [
+                __DIR__.'/../../database/factories/StudyFactory.php' =>
+                database_path().'/factories/StudyFactory.php'
+            ],"scool_curriculum"
+        );
     }
 }
